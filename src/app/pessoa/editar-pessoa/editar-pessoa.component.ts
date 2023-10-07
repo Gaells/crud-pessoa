@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PessoaService } from '../services/pessoa.service';
 import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
-import { Pessoa } from 'src/app/shared/models/pessoa.model';
+import { Pessoa } from 'src/app/shared';
 import { ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
