@@ -8,6 +8,7 @@ import { InserirPessoaComponent } from './inserir-pessoa/inserir-pessoa.componen
 import { EditarPessoaComponent } from './editar-pessoa/editar-pessoa.component';
 import { NumericoDirective } from '../shared/directives/numerico.directive';
 import { MinimoValidatorDirective } from '../shared/directives/minimo-validator.directive';
+import { MeuPipePipe } from '../shared/pipes/meu-pipe.pipe';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MinimoValidatorDirective } from '../shared/directives/minimo-validator.
     InserirPessoaComponent,
     EditarPessoaComponent,
     NumericoDirective,
-    MinimoValidatorDirective
+    MinimoValidatorDirective,
+    MeuPipePipe
   ],
   imports: [
     CommonModule,

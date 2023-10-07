@@ -12,7 +12,7 @@
             </th>
         </tr>
         <tr *ngFor="let pessoa of pessoas">
-            <td>{{pessoa.nome}}</td>
+            <td>{{pessoa.nome | caixaAlta}}</td>
             <td>{{pessoa.idade}}</td>
             <td class="text-center" style="width: 300px">
                 <a href="#" title="Editar" class="btn btn-xs btn-info" [routerLink]="['/pessoas/editar', pessoa.id]">
